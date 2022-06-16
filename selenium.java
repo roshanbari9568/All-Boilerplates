@@ -10,5 +10,8 @@ public class selenium {
 		WebDriver driver = new ChromeDriver(); // Invoking Webdriver
 		driver.get("http://the-internet.herokuapp.com/checkboxes");
 		driver.manage().window().maximize(); // This will maximize the driver window
+                driver.close();
+                driver.quit();
+
 	}
 }
